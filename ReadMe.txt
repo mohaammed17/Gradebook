@@ -1,4 +1,4 @@
-Description
+Description:
 In this university coursework project, I developed a Gradebook system, which allows managing student grades for three modules: CW001, EX002, and CE003. The system accommodates different assessment patterns for each module, ensuring accurate and efficient grade management.
 
 The Gradebook project is implemented using object-oriented programming principles, including encapsulation, inheritance, and polymorphism, to provide a robust and maintainable solution for a real-world scenario.
