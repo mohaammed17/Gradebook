@@ -1,0 +1,35 @@
+Scenario - Gradebook:
+Students on a course take three modules CW001, EX002, CE003. The modules have
+different assessment patterns:
+• The mark for CW001 is based only on the coursework, which consist of 3 homeworks
+and a final project; the marks are weighed as 50% for homeworks (average mark) and
+50% for the project.
+• The mark for EX002 is based only on exam.
+• - The mark for CE003 is based on a coursework, the average of 4 homeworks, and an
+exam, weighed as 40% for the coursework and 60% for the exam.
+All marks are entered as a percentage, integer values up to 100.
+
+Task Description:
+1. An abstract class Module, which has attributes name, status and final mark.
+• name – to store the name of a module.
+• status – corresponds to the assessment pattern for the module: 0 – coursework
+only, 1 – exam only, 2 – coursework and exam.
+• final mark – to store the final mark for the module in a range from 0 to 100
+(allows decimal values).
+The methods of the class should allow to set/get values of the attributes and to print
+the final mark.
+2. Three concrete classes: one for each type of the modules (corresponding to status
+0,1, and 2), subclasses of Module. In addition to attributes specified in the super class,
+these classes should have attributes for coursework marks, exams and the corresponding
+weights (where applicable).
+3. Class Student: to store information about a student: ID, First name. Surname, and
+three modules as described in the scenario.
+From Student class you should be able to access (set/get) attributes of an object and
+all marks for the student; also it should have a printing method to print marks for all
+modules or for a particular module.
+4. Main class: where you create instances of all Modules, and an array of Students
+instances, fill-in details of the students and their marks for every module, and print
+out marks in a tabular form.
+• For printing marks you need to prompt a user whether to print marks for a single
+module (by name) or for all modules, in this case it is sufficient to print only the
+final marks.
