@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-792.0" y="17.0">EX002</node>
+    <node x="-1257.4410876132931" y="692.5">Main</node>
+    <node x="-804.5" y="327.0">Student</node>
+    <node x="-381.1389728096676" y="4.0">CW001</node>
+    <node x="-789.5" y="-277.0">Module</node>
+    <node x="-1305.4410876132931" y="-16.0">CE003</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CW001" target="Module" relationship="GENERALIZATION">
+      <point x="0.0" y="-116.5" />
+      <point x="-256.6389728096676" y="-41.0" />
+      <point x="-697.5" y="-41.0" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="Student" target="EX002" relationship="CREATE">
+      <point x="53.5" y="-171.5" />
+      <point x="-644.0" y="257.0" />
+      <point x="-692.5" y="257.0" />
+      <point x="-692.5" y="237.0" />
+      <point x="-650.25" y="237.0" />
+      <point x="47.25" y="83.5" />
+    </edge>
+    <edge source="EX002" target="Module" relationship="GENERALIZATION">
+      <point x="0.0" y="-83.5" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="Main" target="Student" relationship="CREATE">
+      <point x="76.5" y="-0.0" />
+      <point x="-697.5" y="731.0" />
+      <point x="-0.0" y="171.5" />
+    </edge>
+    <edge source="Student" target="EX002" relationship="TO_ONE">
+      <point x="-53.5" y="-171.5" />
+      <point x="-751.0" y="257.0" />
+      <point x="-702.5" y="257.0" />
+      <point x="-702.5" y="247.0" />
+      <point x="-744.75" y="247.0" />
+      <point x="-47.25" y="83.5" />
+    </edge>
+    <edge source="CE003" target="Module" relationship="GENERALIZATION">
+      <point x="0.0" y="-116.5" />
+      <point x="-1180.9410876132931" y="-41.0" />
+      <point x="-697.5" y="-41.0" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="Student" target="CW001" relationship="TO_ONE">
+      <point x="-53.5" y="-171.5" />
+      <point x="-751.0" y="257.0" />
+      <point x="-702.5" y="257.0" />
+      <point x="-702.5" y="247.0" />
+      <point x="-318.8889728096676" y="247.0" />
+      <point x="-62.25" y="116.5" />
+    </edge>
+    <edge source="Student" target="CE003" relationship="CREATE">
+      <point x="53.5" y="-171.5" />
+      <point x="-644.0" y="257.0" />
+      <point x="-692.5" y="257.0" />
+      <point x="-692.5" y="237.0" />
+      <point x="-1118.6910876132931" y="237.0" />
+      <point x="62.25" y="116.5" />
+    </edge>
+    <edge source="Student" target="CE003" relationship="TO_ONE">
+      <point x="-53.5" y="-171.5" />
+      <point x="-751.0" y="257.0" />
+      <point x="-702.5" y="257.0" />
+      <point x="-702.5" y="247.0" />
+      <point x="-1243.1910876132931" y="247.0" />
+      <point x="-62.25" y="116.5" />
+    </edge>
+    <edge source="Student" target="CW001" relationship="CREATE">
+      <point x="53.5" y="-171.5" />
+      <point x="-644.0" y="257.0" />
+      <point x="-692.5" y="257.0" />
+      <point x="-692.5" y="237.0" />
+      <point x="62.25" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6340996168582376" showDependencies="true" x="-687.5" y="238.0" />
+  <SelectedNodes>
+    <node>Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
